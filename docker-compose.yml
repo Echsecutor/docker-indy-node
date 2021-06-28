@@ -7,7 +7,8 @@ services:
   indy-node:
     build:
       context: ./node/
-      dockerfile: Dockerfile.buster
+      dockerfile: Dockerfile
+    container_name: indy_node
     ports:
       - "${INDY_NODE_PORT}:${INDY_NODE_PORT}"
       - "${INDY_CLIENT_PORT}:${INDY_CLIENT_PORT}"
