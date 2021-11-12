@@ -2,6 +2,10 @@
 
 A simple container setup to run a node in an Hyperledger Indy network.
 
+## DEPRECATED!
+
+The contents of this repository are deprecated. All work hier has been contributed to and is continued in https://github.com/IDunion/indy-node-container . If you are looking for a Containerized setup to run an Hyper Ledger Indy Node, please go there. 😉
+
 ## How To
 
 - `./generate_random_seeds.sh` and then securely backup `.node.env` which holds the seed for generating the private keys
